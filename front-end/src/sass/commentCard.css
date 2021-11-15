@@ -1,0 +1,33 @@
+#oneMessage {
+  margin-top: 80px;
+}
+
+.fas {
+  font-size: xx-large;
+  color: #ff9d9d;
+}
+
+#comment-card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0 20px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+i {
+  text-decoration: underline;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+button .fa-trash-alt {
+  color: #ff9d9d;
+}/*# sourceMappingURL=commentCard.css.map */

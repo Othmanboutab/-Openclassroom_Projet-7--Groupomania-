@@ -1,0 +1,40 @@
+#oneMessage{
+    margin-top:80px;
+}
+
+.fas{
+    font-size:xx-large;
+    color: rgb(255, 157, 157);
+}
+
+
+#comment-card{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0 20px 0;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+   
+}
+
+i{
+    text-decoration: underline;
+}
+
+
+button{
+    background-color:transparent;
+    border: none;
+    .fa-trash-alt{
+        color: rgb(255, 157, 157);
+    }
+
+}
+
+

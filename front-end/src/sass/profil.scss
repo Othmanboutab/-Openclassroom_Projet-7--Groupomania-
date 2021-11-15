@@ -1,0 +1,149 @@
+#nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+    .Groupomania {
+        width: 250px;
+        height: 200px;
+    }
+
+    .fas{
+        color: rgb(255, 157, 157);
+    }
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.profil{
+    margin:80px 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+
+
+     h2{
+         width: 100%;
+         padding-top: 20px;
+         display: flex;
+         justify-content: flex-end;
+     }
+
+     .modify{
+         display: flex;
+         justify-content: center;
+         flex-direction:column;
+        margin-left: 40px;
+        margin-top: 40px;
+
+     }
+
+     
+    
+}
+
+.form-group{
+    margin-left: 40px;
+    display:flex;
+    flex-direction: row;
+
+    #firstname , #name {
+        height:20px;
+        border-radius: 15px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .formulaire{
+        margin-top:110px;
+    }
+
+    .btn{
+        margin-top:105px;
+        margin-left: 20px;
+    }
+
+button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.deletebtn{
+ background-color:rgb(255, 157, 157) !important;
+ border: none;
+ margin-top:10px;
+ border-radius: 20px;
+ padding: 5px;
+
+ &:hover{
+     background-color:black !important;
+     color: white;
+     
+ }
+}
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .form-group button{
+        width: 40%;
+    }
+
+    .fas{
+        margin-left: 20px;
+        width: 29px;
+    }
+
+    .form-group{
+        display: flex;
+        flex-direction: column;
+
+        .formulaire{
+            margin-top:0px;
+        }
+    
+        .btn{
+            margin:0px 0px 20px 0px;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+
+        .modifybtn{
+            padding: 0px;
+        }
+
+        .deletebtn{
+            padding: 10px;
+            margin-left: 10px;
+        }
+    }
+
+    .profil{
+        display: block;
+    }
+
+}

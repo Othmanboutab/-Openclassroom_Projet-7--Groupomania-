@@ -1,0 +1,178 @@
+body {
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+          animation: gradient 20s ease infinite;
+  height: 100vh;
+}
+body #nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+}
+body #nav .Groupomania {
+  width: 250px;
+  height: 200px;
+}
+body #nav ul li {
+  list-style-type: none;
+}
+body #nav ul li a {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+body #nav ul li a:hover {
+  background-color: #ff9d9d;
+  border-radius: 15px;
+  border: 1px solid #a8a8a8;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body .signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 80px;
+}
+body .signup .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .signup .title .Group {
+  width: 250px;
+  height: 350px;
+  -webkit-animation: spin 4s linear infinite;
+          animation: spin 4s linear infinite;
+}
+body .signup .title h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+body .signup .title h1::first-letter {
+  color: #ff9d9d;
+}
+body .signup .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid #d1d1d1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 350px;
+  margin-top: 40px;
+}
+body .signup .form button {
+  display: flex;
+  margin-top: 20px !important;
+  margin: auto;
+  background-color: #ff9d9d;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body .signup .form h2 {
+  text-decoration: underline;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body .signup .form .flex {
+  display: flex;
+  flex-direction: column;
+}
+body .signup .form .flex label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body .signup .form .flex input {
+  border: none;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body form {
+  display: block;
+}
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body #nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: inline;
+    height: 85px;
+  }
+  body #nav .Groupomania {
+    width: 250px;
+    height: 200px;
+  }
+  body #nav ul {
+    padding: 0px;
+  }
+  body #nav ul li {
+    list-style-type: none;
+  }
+  body .signup {
+    display: flex;
+    flex-direction: column;
+  }
+  body .signup .Group {
+    display: none;
+  }
+  body .signup h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=app.css.map */

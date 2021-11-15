@@ -1,0 +1,179 @@
+body {
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    height: 100vh;
+    #nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 85px;
+        .Groupomania {
+            width: 250px;
+            height: 200px;
+        }
+        ul {
+            li {
+                list-style-type: none;
+                a {
+                    font-size: large;
+                    font-weight: bold;
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        background-color: rgb(255, 157, 157);
+                        border-radius: 15px;
+                        border: 1px solid rgb(168, 168, 168);
+                        padding: 10px;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    }
+                }
+            }
+        }
+    }
+    .signup {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 80px;
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .Group {
+                width: 250px;
+                height: 350px;
+                animation: spin 4s linear infinite;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            h1::first-letter {
+                color: rgb(255, 157, 157);
+            }
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 1px solid rgb(209, 209, 209);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 350px;
+            margin-top: 40px;
+            button {
+                display: flex;
+                margin-top: 20px !important;
+                margin: auto;
+                background-color: rgb(255, 157, 157);
+                border: none;
+                border-radius: 20px;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            h2 {
+                text-decoration: underline;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .flex {
+                display: flex;
+                flex-direction: column;
+                label {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+                input {
+                    border: none;
+                    width: 200px;
+                    padding-left: 20px;
+                    padding-right: 10px;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    height: 20px;
+                    border-radius: 15px;
+                    background-color: rgb(243, 243, 243);
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+        }
+    }
+    form {
+        display: block;
+    }
+
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+}
+@media screen and (max-width: 400px) {
+
+    body {
+        #nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: inline;
+            height: 85px;
+            .Groupomania {
+                width: 250px;
+                height: 200px;
+
+            }
+            ul {
+                padding: 0px;
+                li {
+                    list-style-type: none;
+                }
+        
+    }
+    }
+    .signup {
+        display: flex;
+        flex-direction: column;
+        .Group {
+            display: none;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+}
+}
