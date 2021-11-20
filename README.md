@@ -1,12 +1,10 @@
 # Openclassroom_Projet-7--Groupomania
 
-Groupomania - front-end
+Groupomania
 
-Front-end du septième projet du parcours développeur web chez OpenClassrooms Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Pour ce MVP, il a été décidé de partir sur un clone de 9GAG
+Septième projet du parcours développeur web chez OpenClassrooms Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Pour ce MVP.
 
-Repository du back-end
 
-screenshot page d'accueil
 User stories
 ```
     En tant qu'employé je veux créer et me connecter à un compte
@@ -23,7 +21,6 @@ Technologies utilisées
 
 ```
 Installation & lancement
-0. Installer et lancer le back-end
 
 Instruction sur le repository :
 1. Pré-requis
