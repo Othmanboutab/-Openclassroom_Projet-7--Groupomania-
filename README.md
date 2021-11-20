@@ -1,6 +1,6 @@
 # Openclassroom_Projet-7--Groupomania
 
-Groupomania
+## Groupomania
 
 Septième projet du parcours développeur web chez OpenClassrooms Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Pour ce MVP.
 
