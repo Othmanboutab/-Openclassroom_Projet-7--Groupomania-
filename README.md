@@ -1,6 +1,6 @@
 # Openclassroom_Projet-7--Groupomania
 
-## Groupomania
+# Groupomania
 
 Septième projet du parcours développeur web chez OpenClassrooms Le projet consiste à construire un réseau social interne pour les employés de Groupomania. Pour ce MVP.
 
@@ -11,23 +11,22 @@ User stories
     En tant qu'employé je veux pouvoir partager des GIFs
     En tant qu'employé je veux pouvoir voir les GIFs des autres employés
     En tant qu'employé je veux pouvoir voir et écrire des commentaires sur les publications
-
 ```
 Technologies utilisées
 
 ```
     Front-end : Vue.js, SASS
     Back-end : Node.js, Express.js, ORM & MySQL
-
 ```
 Installation & lancement
 
 Instruction sur le repository :
 1. Pré-requis
 
-    Node.js 14
-    Npm
-
+```
+    - Node.js 14
+    - Npm
+```
 2. Cloner le projet
 
 $ git clone 
